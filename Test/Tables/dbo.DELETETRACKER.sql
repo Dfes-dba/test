@@ -8,6 +8,7 @@ CREATE TABLE [dbo].[DELETETRACKER] (
 		[imalock]         [int] NULL,
 		[fulldn]          [varbinary](2048) NULL,
 		[changestamp]     [datetime] NULL,
+		[testdel]         [varchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		CONSTRAINT [c5]
 		PRIMARY KEY
 		CLUSTERED
