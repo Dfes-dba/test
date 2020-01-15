@@ -1,7 +1,7 @@
 SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE PROCEDURE dbo.AddIndexEntry
+CREATE PROCEDURE [dbo].[AddIndexEntry]
                      @varnodeid     int,
 					   @varcontextid  int,
 					   @varparentid   int,

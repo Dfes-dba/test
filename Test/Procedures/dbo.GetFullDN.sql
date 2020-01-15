@@ -1,7 +1,7 @@
 SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE PROCEDURE dbo.GetFullDN 
+CREATE PROCEDURE [dbo].[GetFullDN] 
   @parentid  int, 
   @contextid int, 
   @rdn varbinary(255), 
